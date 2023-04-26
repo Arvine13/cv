@@ -1,0 +1,343 @@
+.skill-row1{
+  width: 100%;
+  margin: 80px auto 80px auto;
+
+}
+
+
+
+.College{
+  height:45%;
+  width: 45%;
+  margin-right: 60px;
+  text-align: left;
+  align-items: center;
+  float: left;
+
+}
+.twelth{
+  height: 45%;
+  width: 45%;
+  margin-left: 60px;
+  float: right;
+
+}
+.tenth{
+  height: 45%;
+  width: 45%;
+  margin-right: 60px;
+  float: left;
+}
+
+.edu1{
+  width: 100%;
+  height:600px;
+  position: absolute;
+  top: 138px;
+  left: 0;
+
+}
+.edu2{
+  width: 100%;
+  height:750px;
+  position: absolute;
+  top: 138px;
+  left: 0;
+
+}
+
+.scrol{
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top:620px;
+  right: 30px;
+}
+.top{
+    border-style: dotted none none none;
+    width: 5%;
+    border-width: 8px;
+    color: grey;
+
+
+
+}
+.topdiv{
+  height: 130px;
+  width: 100%;
+  background-color: #D4FFF7;
+  border: none;
+
+
+
+}
+.btn{
+  background: #5cfacb;
+  background-image: -webkit-linear-gradient(top, #5cfacb, #099688);
+  background-image: -moz-linear-gradient(top, #5cfacb, #099688);
+  background-image: -ms-linear-gradient(top, #5cfacb, #099688);
+  background-image: -o-linear-gradient(top, #5cfacb, #099688);
+  background-image: linear-gradient(to bottom, #5cfacb, #099688);
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  -webkit-box-shadow: 0px 1px 14px #000000;
+  -moz-box-shadow: 0px 1px 14px #000000;
+  box-shadow: 0px 1px 14px #000000;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 21px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #36ebd9;
+  background-image: -webkit-linear-gradient(top, #36ebd9, #5ed9ae);
+  background-image: -moz-linear-gradient(top, #36ebd9, #5ed9ae);
+  background-image: -ms-linear-gradient(top, #36ebd9, #5ed9ae);
+  background-image: -o-linear-gradient(top, #36ebd9, #5ed9ae);
+  background-image: linear-gradient(to bottom, #36ebd9, #5ed9ae);
+  text-decoration: none;
+}
+
+.cartoon-logo {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  left: 100px;
+  top: 10px;
+}
+
+.cloud1 {
+  width: 150px;
+  height: 100px;
+  position: absolute;
+  top: 350px;
+  right: 350px;
+}
+
+.cloud2 {
+  position: absolute;
+  left: 200px;
+  bottom: 150px;
+  width: 150px;
+  height: 100px;
+}
+
+.cloud3 {
+  width: 150px;
+  height: 100px;
+  position: absolute;
+  left: 400px;
+  top: 400px;
+}
+
+.cloud4 {
+  width: 150px;
+  height: 100px;
+  position: absolute;
+  top: 250px;
+  left: 300px;
+
+}
+
+.cloud5 {
+  width: 150px;
+  height: 100px;
+  position: absolute;
+  top: 210px;
+  left: 850px;
+}
+
+.mountain {
+  height: 250px;
+  width: 700px;
+  position: absolute;
+  left: 400px;
+  top: 500px;
+}
+
+.p2 {
+  font-size: 20px;
+  margin-left: auto;
+}
+
+.myImage {
+  height: 310px;
+  width: 360px;
+}
+
+.top-container {
+  background-color: #95FAE4;
+  height: 612px;
+  width: 100%;
+}
+
+.middle-container {
+  margin: -100px 0;
+}
+
+.bottom-container {
+  background-color: #95FAE4;
+  height: 100px;
+  position:relative;
+  bottom: 1px;
+
+}
+
+.skills {
+  align-items: center;
+}
+
+.JAVAPrograming {
+  height: 45%;
+  width: 45%;
+  text-align: center;
+  float: left;
+}
+
+.Grapicdesigner {
+  height: 45%;
+  width: 45%;
+  text-align: center;
+  align-items: center;
+  position: relative;
+  left: -20px;
+  float: left;
+}
+
+.front-end {
+  height: 45%;
+  width: 45%;
+  text-align: center;
+  align-items: center;
+  float: right;
+}
+
+.web {
+  font-size: 1.5625rem;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.skill-row {
+  width: 55%;
+  margin: 80px auto 80px auto;
+}
+
+
+.profile {
+  width: 50%;
+  margin: 80px auto 80px auto;
+}
+
+.copyrights {
+  text-align: center;
+  font-size: 25px;
+
+}
+.rights{
+  text-align: center;
+  position:relative;
+  top: 55px;
+
+}
+
+.myinfo {
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Bad Script', cursive;
+  line-height: 2;
+}
+
+
+.footer-link {
+  padding: 30px;
+  color: #B1B2B2;
+  text-decoration: none;
+  font-size: 120%;
+}
+.footer-link:hover{
+  color: #05DAAD;
+}
+.education{
+  text-decoration: none;
+  font-size: 150%;
+  width: 20px;
+  margin: auto 50px;
+  position: absolute;
+  top: 60px;
+  right: 600px;
+
+}
+
+.education:hover{
+  color: #05DAAD;
+}
+.project{
+  text-decoration: none;
+  font-size: 150%;
+  width: 20px;
+    margin: auto 50px;
+  position: absolute;
+  top: 60px;
+  right: 400px;
+}
+
+.project:hover{
+  color: #05DAAD;
+}
+.hobbies{
+  text-decoration: none;
+  font-size: 150%;
+  width: 20px;
+  margin: auto 50px;
+  position: absolute;
+  top: 60px;
+  right:220px;
+}
+
+.hobbies:hover{
+  color: #05DAAD;
+}
+
+a{
+  color:#01A280;
+  width: 50px;
+  padding: auto 50px;
+}
+a:hover {
+  color: white;
+}
+
+body {
+  text-align: center;
+  background: #D4FFF7;
+}
+
+h1 {
+  width: auto;
+  margin: 0 auto;
+  margin-top: 50px;
+  font-size: 3.75rem;
+  font-family: 'Sacramento', cursive;
+  color: #01A280;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-family: 'Rajdhani', sans-serif;
+  color: #01A280;
+}
+
+p {
+  font-size: 20px;
+  text-align: left;
+  font-family: 'Bad Script', cursive;
+  line-height: 2;
+}
+
+h3 {
+  font-size: 1.565rem;
+  color: #0DBE9B;
+}
