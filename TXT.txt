@@ -1,12 +1,54 @@
-CREATE TABLE Persons (
-    PersonID INT,
-    LastName VARCHAR(255),
-    FirstName VARCHAR(255),
-    Address VARCHAR(255),
-    City VARCHAR(255),
-    Email VARCHAR(255)
-);
-INSERT INTO Persons (PersonID, LastName, FirstName, Address, City, Email) VALUES
-(1, 'Sharma', 'Rohit', 'Thane', 'Mumbai', NULL),
-(1, 'Sharma', 'Rohit', 'Thane', 'Mumbai', NULL),
-(1, 'Sharma', 'Rohit', 'Thane', 'Mumbai', NULL);
+
+ 
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.Statement;
+ 
+public class JDBCDemo {
+ 
+	public static void main(String[] args) {
+				
+		try
+		{
+			// Load the MYSQL JDBC driver
+			Class.forName("com.mysql.cj.jdbc.Driver");
+			//Class.forName("com.mysql.jdbc.Driver");
+			
+			//Connect to the database
+			String url = "jdbc:mysql://localhost:3306/wiprodb?useSSL=false&allowPublicKeyRetrieval=true";
+ 
+		//	String url="jdbc:mysql://localhost:3306/wiprodb";
+			String username="root";
+			String password="1234";
+			Connection connection = DriverManager.getConnection(url,username,password);
+			
+			//Create the statement
+			Statement stmt = connection.createStatement();
+			
+			//Execute the statement
+			String query = "SELECT * FROM Persons";
+			ResultSet resultset = stmt.executeQuery(query);
+			
+			//Process the result set to display on the console o/p
+			while(resultset.next())
+			{
+				int id = resultset.getInt("PersonID");
+				String fname = resultset.getString("FirstName");
+				System.out.println("ID: "+id+", name"+fname);
+				
+				
+				//close the result set
+				resultset.close();
+				stmt.close();
+				connection.close();
+			}			
+		}
+		catch(Exception e)
+		{
+			e.printStackTrace();
+		}
+ 
+	}
+ 
+}
